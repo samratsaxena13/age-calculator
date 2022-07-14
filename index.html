@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Age Calculator </title>
+        <link rel="icon" type="image/x-icon" href="icon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body id="body" onload="setup()">
+        <div id="heading">AGE CALCULATOR</div>
+        <label id="instruction">Date of birth:</label>
+        <button class="btn btn-primary" id="click-button" onclick="calculate()">Calculate</button>
+        <input id="date-input" type="date" style="font-size: 40px;">
+        <label style="font-size: 40px;" id="age-output"></label>
+        <div id="loading-component">
+            <div id="dot1" class="dot"></div>
+            <div id="dot2" class="dot"></div>
+            <div id="dot3" class="dot"></div>
+        </div>
+    </body>
+</html>
